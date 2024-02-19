@@ -1,0 +1,11 @@
+server:
+  port: 5555
+  servlet:
+    context-path: /api
+spring:
+  data:
+    mongodb:
+      database: WebContent
+      host: localhost
+      port: 27017
+  

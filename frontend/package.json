@@ -12,19 +12,20 @@
     "test:fix": "npm run test -- -u"
   },
   "dependencies": {
-    "tailwindcss": "3.3.3",
+    "@material-ui/core": "^4.12.4",
     "@tailwindcss/forms": "0.5.x",
     "@tailwindcss/typography": "0.5.x",
+    "@vitejs/plugin-react": "4.0.x",
     "autoprefixer": "^10.4.15",
     "axios": "^1.5.0",
+    "jest-extended": "^4.0.1",
     "postcss": "^8.4.29",
     "react": "18.2.x",
     "react-dom": "18.2.x",
     "react-query": "^3.39.3",
     "react-router-dom": "6.15.x",
-    "vite": "4.4.x",
-    "@vitejs/plugin-react": "4.0.x",
-    "jest-extended": "^4.0.1"
+    "tailwindcss": "3.3.3",
+    "vite": "4.4.x"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "6.1.x",
@@ -33,6 +34,7 @@
     "@types/node": "18.17.x",
     "@types/react": "18.2.x",
     "@types/react-dom": "18.2.x",
+    "@types/react-html-parser": "^2.0.6",
     "@typescript-eslint/eslint-plugin": "6.5.x",
     "eslint": "8.48.x",
     "eslint-config-airbnb": "19.0.x",
@@ -43,6 +45,7 @@
     "jest-cli": "29.6.x",
     "jest-environment-jsdom": "^29.6.4",
     "prettier": "3.0.x",
+    "react-html-parser": "^2.0.2",
     "ts-jest": "29.1.x",
     "typescript": "5.0.x"
   }
